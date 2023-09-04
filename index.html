@@ -7,13 +7,20 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <header>
+      <h1>SKetch PAD</h1>
+      <h2 >The current Mode is :  <span id="mode">Coloring</span></h2>
+    </header>
+    <br>
     <div class="container"></div>
+    <br>
     <div class="options">
       <div>
-        <button>Black</button>
-        <button>Rainbow</button>
-        <button>Random</button>
-        <button>Reset</button>
+        <button onclick="changeColor('black')">BLack</button>
+        <button onclick="changeColor('rainbow')">Rainbow</button>
+        <button onclick="changeColor('random')">Random</button>
+        <button onclick="changeColor('white')">Eraser</button>
+        <button onclick="reset()">Reset</button>
       </div>
     </div>
     <div class="set-size">
