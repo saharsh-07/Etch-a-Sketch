@@ -8,11 +8,11 @@ body{
 }
 .container{
   display: grid;
-  height:95vh;
-  width:95vw;
+  height:80vh;
+  width:80vw;
 }
 
-div{
+.container> div{
   border: 0.1px yellow solid;
   height: auto;
   width: auto;
