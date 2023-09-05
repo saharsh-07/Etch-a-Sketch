@@ -54,9 +54,12 @@ const isClicked = () => {
   click = !click;
   const mode = document.getElementById("mode");
   if (click){
+    mode.style.color = "lawngreen"
     mode.textContent = "Coloring activated"
   }
   else{
+
+    mode.style.color = "red"
     mode.textContent = "Coloring off"
   }
 }

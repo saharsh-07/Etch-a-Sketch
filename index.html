@@ -14,18 +14,18 @@
     <br>
     <div class="container"></div>
     <br>
-    <div class="options">
-      <div>
+    <div class="controls">
+      <div class="options">
         <button onclick="changeColor('black')">BLack</button>
         <button onclick="changeColor('rainbow')">Rainbow</button>
         <button onclick="changeColor('random')">Random</button>
         <button onclick="changeColor('white')">Eraser</button>
+      </div>
+      <div class="set-size">
+        <input type="text" placeholder="16" onkeypress="keyEnter(event)" id="size-input" />
+        <button type="submit" onclick="changeSize()">Set Size</button>
         <button onclick="reset()">Reset</button>
       </div>
-    </div>
-    <div class="set-size">
-      <input type="text" name="input" onkeypress="keyEnter(event)" id="size-input" />
-      <button type="submit" onclick="changeSize()" for="input">Set Size</button>
     </div>
     <script src="index.js"></script>
   </body>
