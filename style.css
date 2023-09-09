@@ -71,3 +71,6 @@ input[type="text"]{
   height: auto;
   width: auto;
 }
+button:active, button:focus{
+  box-shadow: 1px 1px 1px #34b813;
+}
